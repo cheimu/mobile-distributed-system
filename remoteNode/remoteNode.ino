@@ -151,8 +151,7 @@ void setPWM() {
     if (realSpeed*0.995 >= 0) {
       curSpeed = preSpeed*0.995 + 0.5;
     } else {
-      curSpeed = 0;o
-      
+      curSpeed = 0;
     }  
     preSpeed = curSpeed;
   } else {
